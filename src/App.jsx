@@ -347,9 +347,9 @@ const ThaiTaxHelper = () => {
     <div className="text-center py-8 px-4 print:hidden">
       <ChannelBanner />
       
-      <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-3">Workmate Tax Planner 2568 - คำนวณภาษีปี 68 (ยื่นปี 69)</h1>
+      <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-3">Workmate Tax Planner 2025</h1>
       <p className="text-lg text-gray-600 mb-8 max-w-md mx-auto">
-        วางแผนภาษีสำหรับยื่นปี 2569 ง่ายๆ ใน 4 ขั้นตอน (รวม Easy E-Receipt & เที่ยวเมืองรอง)
+        วางแผนภาษีปี 2568 สำหรับยื่นต้นปี 2569 ง่ายๆ ใน 4 ขั้นตอน (รวม Easy E-Receipt & เที่ยวเมืองรอง)
       </p>
 
       {/* 4 Steps Grid */}
