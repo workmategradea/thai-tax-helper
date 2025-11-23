@@ -81,7 +81,7 @@ const ChannelBanner = () => {
 // 4. Youtube Link Component
 const YoutubeLink = () => (
   <a 
-    href="https://www.youtube.com/watch?v=24E2U9Wkjjk" 
+    href="https://youtu.be/8HUnFNJsLOk" 
     target="_blank" 
     rel="noopener noreferrer"
     className="inline-flex items-center text-xs text-gray-500 hover:text-red-600 transition mt-4"
@@ -347,7 +347,7 @@ const ThaiTaxHelper = () => {
   const renderWelcomeScreen = () => (
     <div className="text-center py-8 px-4 print:hidden">
       <a
-        href="https://www.youtube.com/watch?v=24E2U9Wkjjk"
+        href="https://youtu.be/8HUnFNJsLOk"
         target="_blank"
         rel="noopener noreferrer"
         className="block hover:opacity-95 transition"
@@ -846,7 +846,7 @@ const ThaiTaxHelper = () => {
 
       {/* Banner Link at the bottom */}
       <div className="print:hidden mt-8">
-         <a href="https://www.youtube.com/watch?v=24E2U9Wkjjk" target="_blank" rel="noopener noreferrer" className="block hover:opacity-90 transition-opacity">
+         <a href="https://youtu.be/8HUnFNJsLOk" target="_blank" rel="noopener noreferrer" className="block hover:opacity-90 transition-opacity">
             <ChannelBanner />
          </a>
          <div className="text-center mt-2">
