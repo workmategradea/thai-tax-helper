@@ -43,7 +43,7 @@ const ChannelLogo = ({ className }) => {
   return (
     <img 
       src={logoUrl}
-      alt="Workmate Grade A Logo" 
+      alt="ตัวช่วยคำนวณภาษี Workmate Grade A โลโก้" 
       className={className} 
       onError={() => setError(true)} 
     />
@@ -70,7 +70,7 @@ const ChannelBanner = () => {
     <div className="mb-6 rounded-xl overflow-hidden shadow-lg">
       <img 
         src={bannerUrl}
-        alt="Workmate Grade A Banner" 
+        alt="ตัวช่วยคำนวณภาษี Workmate Grade A แบนเนอร์" 
         className="w-full h-auto object-cover"
         onError={() => setError(true)} 
       />
@@ -85,9 +85,10 @@ const YoutubeLink = () => (
     target="_blank" 
     rel="noopener noreferrer"
     className="inline-flex items-center text-xs text-gray-500 hover:text-red-600 transition mt-4"
+    aria-label="วิดีโอแนะนำการคำนวณภาษี Workmate Grade A บน YouTube"
   >
     <Youtube className="h-4 w-4 mr-1" />
-    สนับสนุนโดย Workmate Grade A
+    วิดีโอแนะนำการคำนวณภาษี Workmate Grade A
   </a>
 );
 
@@ -347,10 +348,11 @@ const ThaiTaxHelper = () => {
     <div className="text-center py-8 px-4 print:hidden">
       <ChannelBanner />
       
-      <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-3">Workmate Tax Planner 2025</h1>
-      <p className="text-lg text-gray-600 mb-8 max-w-md mx-auto">
-        วางแผนภาษีปี 2568 สำหรับยื่นต้นปี 2569 ง่ายๆ ใน 4 ขั้นตอน (รวม Easy E-Receipt & เที่ยวเมืองรอง)
+      <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-3">ตัวช่วยคำนวณภาษี 2568 | คำนวณภาษีเงินได้ ฟรี</h1>
+      <p className="text-lg text-gray-600 mb-4 max-w-2xl mx-auto">
+        เครื่องมือคำนวณภาษี 2568 สำหรับมนุษย์เงินเดือนและฟรีแลนซ์ ใส่รายได้ โบนัส ค่าใช้จ่าย สิทธิ์ลดหย่อนครบ Easy E-Receipt ท่องเที่ยว RMF/SSF แล้วเห็นภาษีที่ต้องจ่ายทันที ช่วยวางแผนลดหย่อนภาษีฟรี
       </p>
+      <h2 className="text-xl font-semibold text-gray-800 mb-4">ขั้นตอนใช้ตัวช่วยคำนวณภาษี 2568</h2>
 
       {/* 4 Steps Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-2xl mx-auto mb-10 text-left">
