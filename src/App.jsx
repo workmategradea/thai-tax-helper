@@ -346,7 +346,15 @@ const ThaiTaxHelper = () => {
 
   const renderWelcomeScreen = () => (
     <div className="text-center py-8 px-4 print:hidden">
-      <ChannelBanner />
+      <a
+        href="https://www.youtube.com/@workmategradea"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="block hover:opacity-95 transition"
+        aria-label="????????? YouTube Workmate Grade A"
+      >
+        <ChannelBanner />
+      </a>
       
       <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-3">ตัวช่วยคำนวณภาษี 2568 | คำนวณภาษีเงินได้ ฟรี</h1>
       <p className="text-lg text-gray-600 mb-4 max-w-2xl mx-auto">
